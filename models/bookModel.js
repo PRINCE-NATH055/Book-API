@@ -1,6 +1,5 @@
 const db = require('../db');
 
-// CREATE
 async function addBook(book) {
   const [result] = await db.execute(
     'INSERT INTO books (title, author, year) VALUES (?, ?, ?)',
@@ -9,13 +8,11 @@ async function addBook(book) {
   return result;
 }
 
-// READ
 async function getBooks() {
   const [rows] = await db.execute('SELECT * FROM books');
   return rows;
 }
 
-// UPDATE
 async function updateBook(id, book) {
   const [result] = await db.execute(
     'UPDATE books SET title=?, author=?, year=? WHERE id=?',
@@ -24,7 +21,6 @@ async function updateBook(id, book) {
   return result;
 }
 
-// DELETE
 async function deleteBook(id) {
   const [result] = await db.execute('DELETE FROM books WHERE id=?', [id]);
   return result;
