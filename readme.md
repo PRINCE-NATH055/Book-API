@@ -23,7 +23,7 @@ It allows you to **add**, **view**, **edit**, and **delete** books using a custo
 
 ---
 
-## 📌 API Endpoints
+## API Endpoints
 
 | Method   | Endpoint           | Description                |
 |----------|--------------------|----------------------------|
@@ -80,7 +80,7 @@ const pool = mysql.createPool({
 module.exports = pool.promise();
 ```
 
-## 💻 How to Run Your Server
+## How to Run Your Server
 ### 1. Clone or Download the Project
 **git clone https://github.com/your-username/book-manager.git**
 
@@ -111,7 +111,7 @@ Backend server should run at:
 http://localhost:5000
 ```
 
-## 🌐 How to Run the Frontend
+## How to Run the Frontend
 **Run the server using the command ```js node server.js```**
 
 Open the browser and go to:
@@ -126,7 +126,7 @@ We can see the Book Manager app where we can:
 
 - Edit or delete any book
 
-## 📬 How to Interact with the API (Sample Requests)
+## How to Interact with the API (Sample Requests)
 >**We can use tools like Postman or curl.**
 
 >**In my case I used Postman for testing the API by following way**
