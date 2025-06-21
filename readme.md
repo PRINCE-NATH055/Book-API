@@ -82,7 +82,7 @@ module.exports = pool.promise();
 
 ## How to Run Your Server
 ### 1. Clone or Download the Project
-**git clone https://github.com/your-username/book-manager.git**
+**git clone https://github.com/PRINCE-NATH055/Book-API.git**
 
 **cd book-manager**
 
