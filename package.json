@@ -1,0 +1,21 @@
+{
+  "name": "book-api",
+  "version": "1.0.0",
+  "description": "This project is a beginner-friendly **Book Management System** built using:",
+  "main": "db.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PRINCE-NATH055/Book-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PRINCE-NATH055/Book-API/issues"
+  },
+  "homepage": "https://github.com/PRINCE-NATH055/Book-API#readme"
+}

@@ -239,3 +239,32 @@ Before starting, ensure:
 ```js
 "message": "Book deleted"
 ```
+---
+
+## Testing and Code Coverage (Latest Task)
+
+To ensure the reliability and correctness of the Book Manager API, I implemented three types of automated tests using **Jest** and **Supertest**:
+
+### Types of Tests Implemented
+
+| Test Type        | Description |
+|------------------|-------------|
+|  Unit Tests     | Test logic inside `bookModel.js` using both real and mocked database calls |
+|  Integration Tests | Test how the Express server interacts with the actual MySQL database |
+|  API Tests      | Simulate full API requests and responses using Supertest |
+
+### Tools Used
+
+- [**Jest**](https://jestjs.io/) – for running unit and integration tests and generating code coverage
+- [**Supertest**](https://www.npmjs.com/package/supertest) – for testing Express endpoints as real API calls
+- [**MySQL2**](https://www.npmjs.com/package/mysql2) – used for DB interaction in non-mocking tests
+
+### How to Run Tests
+
+To execute all tests and generate a coverage report:
+
+```bash
+npm test
+```
+![Testing_coverage_output](./Testing_coverage_output.png)
+
