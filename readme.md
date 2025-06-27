@@ -268,3 +268,11 @@ npm test
 ```
 ![Testing_coverage_output](./Testing_coverage_output.png)
 
+## API Testing with AI & CI/CD Integration
+
+![keployapptest](./keployapptest.png)
+
+![keployextension](./keployextension.png)
+
+
+

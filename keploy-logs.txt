@@ -1,0 +1,7 @@
+🐰 Keploy: 2025-06-27T20:45:55+05:30 	[31mERROR[0m	failed to authenticate with apikey to the keploy
+🐰 Keploy: 2025-06-27T20:45:55+05:30 	[31mERROR[0m	API key verification failed, trying again...
+🐰 Keploy: 2025-06-27T20:46:03+05:30 	[31mERROR[0m	failed to read the input for API key	{"error": "failed to read API key: read /dev/stdin: input/output error"}
+🐰 Keploy: 2025-06-27T20:56:40+05:30 	[31mERROR[0m	failed to authenticate with apikey to the keploy
+🐰 Keploy: 2025-06-27T20:56:40+05:30 	[31mERROR[0m	API key verification failed, trying again...
+🐰 Keploy: 2025-06-27T20:57:24+05:30 	[31mERROR[0m	failed to read the input for API key	{"error": "failed to read API key: read /dev/stdin: input/output error"}
+🐰 Keploy: 2025-06-27T21:07:45+05:30 	[31mERROR[0m	failed to authenticate with apikey to the keploy
